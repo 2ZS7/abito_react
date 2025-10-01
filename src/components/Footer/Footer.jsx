@@ -1,4 +1,5 @@
 import './Footer.css'
+import { Link } from 'react-router'
 
 export const Footer = () => {
     return (
@@ -6,12 +7,12 @@ export const Footer = () => {
             <p className="footer--item">
                 © ООО «Абито», 2011–2025
             </p>
-            <a href="#!" className="footer--item">
+            <Link to={`#!`} className="footer--item">
                 Политика конфиденциальности
-            </a>
-            <a href="#!" className="footer--item">
+            </Link>
+            <Link to={`#!`} className="footer--item">
                 Обработка данных
-            </a>
+            </Link>
         </div>
     )
 }
