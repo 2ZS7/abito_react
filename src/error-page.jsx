@@ -10,8 +10,8 @@ export default function ErrorPage() {
         <>
             <Header />
             <div className="error-page">
-                <h1>Oops!</h1>
-                <p>Sorry, an unexpected error has occurred.</p>
+                <h1>Оййй!</h1>
+                <p>К сожалению, произошла непредвиденная ошибка.</p>
                 <p>
                     <i>{error.statusText || error.message}</i>
                 </p>
