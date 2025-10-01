@@ -1,0 +1,12 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.footer--item {
+    color: rgb(196, 196, 196);
+    margin: 0;
+    font-size: 14px;
+    line-height: 16px;
+}

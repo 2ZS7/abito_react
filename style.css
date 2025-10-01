@@ -198,8 +198,6 @@ body {
     margin-bottom: 23px;
 }
 
-.content-side__box {}
-
 .content-side__list {
     display: flex;
     flex-direction: column;
@@ -217,8 +215,6 @@ body {
     align-items: flex-start;
 }
 
-.content-side__list-item--img {}
-
 .content-side__list-item--title {
     margin-top: 7px;
     margin-bottom: 5px;
@@ -230,19 +226,6 @@ body {
     font-size: 14px;
     line-height: 16px;
     margin: 0;
-}
-
-.content-side__footer {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-}
-
-.content-side__footer--item {
-    color: rgb(196, 196, 196);
-    margin: 0;
-    font-size: 14px;
-    line-height: 16px;
 }
 
 .content-product {

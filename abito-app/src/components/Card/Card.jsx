@@ -2,7 +2,7 @@ import './Card.css'
 
 export const Card = ({ title, price, address, date, img }) => {
     return (
-        <a href="/product.html" className="card" >
+        <a href="/Product.jsx" className="card" >
             <div className="card--img">
                 <img src={img} alt="card-img" />
             </div>

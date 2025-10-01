@@ -1,6 +1,9 @@
 import { Header } from "../components/Header/Header"
 import { Card } from "../components/Card/Card"
 import { cardArray } from "../constans"
+import { Footer } from "../components/Footer/Footer"
+import { Search } from "../components/Search/Search"
+import { Side } from "../components/Side/Side"
 
 export const Home = () => {
     return (
@@ -8,17 +11,7 @@ export const Home = () => {
         <>
             <Header />
             <main>
-                <section className="search">
-                    <div className="container">
-                        <div className="search-box">
-                            <input id="search" type="text" autoFocus placeholder="Поиск по объявлениям" />
-                            <button className="btn btn-primary search-btn">
-                                <img className="search-btn__icon" src="/image/search.svg" alt="search" />
-                                <span className="search-btn__text">Найти</span>
-                            </button>
-                        </div>
-                    </div>
-                </section>
+                <Search />
                 <section className="content">
                     <div className="container">
                         <div className="content-box">
@@ -46,43 +39,8 @@ export const Home = () => {
                             <div className="content-side">
                                 <h3 className="content-side__title">Сервисы и услуги</h3>
                                 <div className="content-side__box">
-                                    <div className="content-side__list">
-                                        <div className="content-side__list-item">
-                                            <img className="content-side__list-item--img" src="/image/side-info-1.svg"
-                                                alt="side-info" />
-                                            <h5 className="content-side__list-item--title">Доставка</h5>
-                                            <p className="content-side__list-item--text">Проверка при получении и возможность
-                                                бесплатно вернуть товар</p>
-                                        </div>
-
-                                        <div className="content-side__list-item">
-                                            <img className="content-side__list-item--img" src="/image/side-info-2.svg"
-                                                alt="side-info" />
-                                            <h5 className="content-side__list-item--title">Автотека</h5>
-                                            <p className="content-side__list-item--text">Отчёт с историей авто: пробег, владельцы,
-                                                сведения о залоге, ДТП и ремонтах</p>
-                                        </div>
-
-                                        <div className="content-side__list-item">
-                                            <img className="content-side__list-item--img" src="/image/side-info-3.svg"
-                                                alt="side-info" />
-                                            <h5 className="content-side__list-item--title">Онлайн-бронирование жилья</h5>
-                                            <p className="content-side__list-item--text">Посуточная аренда квартир и домов: большой
-                                                выбор вариантов для поездок по России</p>
-                                        </div>
-                                    </div>
-
-                                    <div className="content-side__footer">
-                                        <p className="content-side__footer--item">
-                                            © ООО «Абито», 2011–2025
-                                        </p>
-                                        <a href="#!" className="content-side__footer--item">
-                                            Политика конфиденциальности
-                                        </a>
-                                        <a href="#!" className="content-side__footer--item">
-                                            Обработка данных
-                                        </a>
-                                    </div>
+                                    <Side />
+                                    <Footer />
                                 </div>
                             </div>
                         </div>

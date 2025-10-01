@@ -1,0 +1,30 @@
+.side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+    gap: 25px;
+    border-bottom: 1px solid rgb(229, 229, 229);
+    padding-bottom: 36px;
+    margin-bottom: 36px;
+}
+
+.side-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.side-item--title {
+    margin-top: 7px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.side-item--text {
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0;
+}
